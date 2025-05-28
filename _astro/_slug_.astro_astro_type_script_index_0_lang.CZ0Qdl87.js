@@ -1,0 +1,1 @@
+import{S as e,N as i}from"./navigation.BRrDmCoO.js";new e(".mySwiper",{modules:[i],slidesPerView:1.2,centeredSlides:!1,spaceBetween:20,loop:!0,navigation:{nextEl:"#slider-movie-next",prevEl:"#slider-movie-prev"}});
