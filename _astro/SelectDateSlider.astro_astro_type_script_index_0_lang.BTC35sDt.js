@@ -1,5 +1,0 @@
-import{S as i,N as n}from"./navigation.BRrDmCoO.js";const d=document.getElementById("date-swiper-wrapper"),l=["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"],p=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"],c=new Date;for(let o=0;o<10;o++){const e=new Date;e.setDate(c.getDate()+o);const r=l[e.getDay()],s=e.getDate(),a=p[e.getMonth()],t=document.createElement("a");t.href="/programacion",t.className="swiper-slide text-center group bg-gray-100 rounded-xl shadow px-2 py-4 cursor-pointer hover:bg-red-600 transition-all animate-fade",t.innerHTML=`
-      <div class="text-sm text-secondary group-hover:text-white font-bold">${r}</div>
-      <div class="text-2xl text-primary group-hover:text-white font-bold">${s}</div>
-      <div class="text-sm text-gray-600 font-bold group-hover:text-white">${a}</div>
-    `,d?.appendChild(t)}new i(".swiper",{modules:[n],loop:!1,slidesPerView:6,spaceBetween:20,navigation:{prevEl:"#slider-date-prev",nextEl:"#slider-date-next"},breakpoints:{320:{slidesPerView:2},640:{slidesPerView:3},1024:{slidesPerView:6}}});
